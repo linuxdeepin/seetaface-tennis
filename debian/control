@@ -1,0 +1,18 @@
+Source: seetaface-tennis
+Section: devel
+Priority: optional
+Maintainer: likier <likier@sina.cn>
+Build-Depends: debhelper (>= 11),
+ libopencv-dev,
+ cmake,
+ seetaface-open-role-zoo,
+ seetaface-authorize
+Standards-Version: 4.5.1
+Homepage: https://github.com/TenniS-Open/TenniS.git
+Rules-Requires-Root: no
+
+Package: seetaface-tennis
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: tennis for seetaface
+  TenniS: Tensor based Edge Neural Network Inference System
