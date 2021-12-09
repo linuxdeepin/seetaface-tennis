@@ -1,0 +1,2 @@
+seetaface-tennis: package-must-activate-ldconfig-trigger usr/lib/libtennis.so
+seetaface-tennis: shlib-without-PT_GNU_STACK-section usr/lib/libtennis.so
